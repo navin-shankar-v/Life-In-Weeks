@@ -59,7 +59,7 @@ export default function LifeInWeeks() {
           />
         </div>
         <p style={{ color: "#9ca3af", marginBottom: 4, fontSize: 14 }}>
-          Born: {birth.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })} → {end.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })} 100 years from the day your were born.
+          Born: {birth.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })} → {end.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })} <br /> 100 years from the day you were born.
         </p>
         <div style={{ display: "flex", gap: 16, marginBottom: 16, fontSize: 13 }}>
           <span><span style={{ color: "#3b82f6" }}>■</span> Lived: <strong>{livedWeeks.toLocaleString()}</strong> weeks</span>
